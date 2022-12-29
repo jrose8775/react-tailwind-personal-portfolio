@@ -42,7 +42,7 @@ export default function Home() {
               <h2 className="text-5xl py-2 text-blue-400 font-medium md:text-6xl">Jordan Rose</h2>
               <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Developer, Product Manager</h3>
               <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
-                As a highly motivated and detail-oriented individual, I have a proven track record of success in both my business and technical pursuits. I possess excellent communication and problem-solving skills, and I am able to work well in both individual and team environments.
+                As a highly motivated and detail-oriented individual, I have a proven track record of success in both my business and technical pursuits. I pride myself on solid communication and problem-solving skills, and I enjoy continuously improving.
               </p>
             </div>
             <div className="text-5xl flex justify-center gap-32 py-3 text-gray-600 dark:text-white">
@@ -59,41 +59,44 @@ export default function Home() {
           </section>
           <section>
             <div>
-              <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
+              <h3 className="text-3xl py-1 dark:text-white">Experience</h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                I am highly skilled in <span className="text-blue-400">problem-solving</span> and have a passion for creating innovative solutions.
+              I have experience as a software developer, with a strong background in programming languages such as <span className="text-blue-400">JavaScript</span> and <span className="text-blue-400">React</span> and experience developing and maintaining software applications for various industries.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                I am highly skilled in <span className="text-blue-400">problem-solving</span> and have a passion for creating innovative solutions.
+                I have experience in software quality assurance, including developing and executing test plans, writing and maintaining test cases, and identifying and documenting defects in software applications.
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+                I have experience as a software product manager, responsible for leading cross-functional teams to define, prioritize, and deliver successful software products, using agile methodologies and data-driven decision making.
               </p>
             </div>
             <div className="lg:flex gap-10 justify-center dark:text-white">
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
                 <Image className="mx-auto" src={design} width={100} height={100} />
-                <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
-                <p className="py-2">Creating designs</p>
-                <h4 className="py-4 text-blue-400">Design Tools I use</h4>
-                <p className="text-gray-800 py-1 dark:text-white">Tool 1</p>
-                <p className="text-gray-800 py-1 dark:text-white">Tool 2</p>
-                <p className="text-gray-800 py-1 dark:text-white">Tool 3</p>
+                <h3 className="text-lg font-medium pt-8 pb-2">Software Development</h3>
+                <p className="py-2">Full Stack</p>
+                <h4 className="py-4 text-blue-400">Programming Languages &amp; Tools</h4>
+                <p className="text-gray-800 py-1 dark:text-white">JavaScript &amp; TypeScript</p>
+                <p className="text-gray-800 py-1 dark:text-white">React</p>
+                <p className="text-gray-800 py-1 dark:text-white">NodeJS</p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
                 <Image className="mx-auto" src={code} width={100} height={100} />
-                <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
-                <p className="py-2">Creating designs</p>
-                <h4 className="py-4 text-blue-400">Design Tools I use</h4>
-                <p className="text-gray-800 py-1 dark:text-white">Tool 1</p>
-                <p className="text-gray-800 py-1 dark:text-white">Tool 2</p>
-                <p className="text-gray-800 py-1 dark:text-white">Tool 3</p>
+                <h3 className="text-lg font-medium pt-8 pb-2">Quality Assurance</h3>
+                <p className="py-2">Eye for detail</p>
+                <h4 className="py-4 text-blue-400">How I Accomplish</h4>
+                <p className="text-gray-800 py-1 dark:text-white">Manual Application Validation</p>
+                <p className="text-gray-800 py-1 dark:text-white">User &amp; Business Needs</p>
+                <p className="text-gray-800 py-1 dark:text-white">Testing Edge Cases</p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
                 <Image className="mx-auto" src={consulting} width={100} height={100} />
-                <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
-                <p className="py-2">Creating designs</p>
-                <h4 className="py-4 text-blue-400">Design Tools I use</h4>
-                <p className="text-gray-800 py-1 dark:text-white">Tool 1</p>
-                <p className="text-gray-800 py-1 dark:text-white">Tool 2</p>
-                <p className="text-gray-800 py-1 dark:text-white">Tool 3</p>
+                <h3 className="text-lg font-medium pt-8 pb-2">Product Management</h3>
+                <p className="py-2">Efficient Teams</p>
+                <h4 className="py-4 text-blue-400">Approach</h4>
+                <p className="text-gray-800 py-1 dark:text-white">Unblocking Developers</p>
+                <p className="text-gray-800 py-1 dark:text-white">Writing User Stories</p>
+                <p className="text-gray-800 py-1 dark:text-white">Documentation</p>
               </div>
             </div>
           </section>
@@ -101,10 +104,7 @@ export default function Home() {
             <div>
               <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                I am highly skilled in <span className="text-blue-400">problem-solving</span> and have a passion for creating innovative solutions.
-              </p>
-              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                I am highly skilled in <span className="text-blue-400">problem-solving</span> and have a passion for creating innovative solutions.
+                Below is a short-list of the main projects I have created and worked on personally.
               </p>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -119,12 +119,6 @@ export default function Home() {
               </div>
               <div className="basis-1/3 flex-1">
                 <Image className="rounded-lg object-cover w-full h-full" width={500} height={500} src={web4} />
-              </div>
-              <div className="basis-1/3 flex-1">
-                <Image className="rounded-lg object-cover w-full h-full" width={500} height={500} src={web5} />
-              </div>
-              <div className="basis-1/3 flex-1">
-                <Image className="rounded-lg object-cover w-full h-full" width={500} height={500} src={web6} />
               </div>
             </div>
           </section>
