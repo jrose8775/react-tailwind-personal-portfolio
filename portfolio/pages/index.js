@@ -10,8 +10,7 @@ import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import jordanavatar from "../public/avatar.png";
 import { useState } from 'react';
 
 export default function Home() {
@@ -120,6 +119,16 @@ export default function Home() {
               <div className="basis-1/3 flex-1">
                 <Image className="rounded-lg object-cover w-full h-full" width={500} height={500} src={web4} />
               </div>
+            </div>
+          </section>
+          <section>
+            <div className="text-center p-10">
+              <h2 className="text-5xl py-2 text-blue-400 font-medium md:text-6xl">Projects</h2>
+              <h3 className="text-2xl py-2 md:text-3xl dark:text-white"><a className="text-blue-400 hover:underline hover:font-medium" href="https://tracktile.io" target="_blank">Tracktile:</a> Configurable Food & Beverage Manufacturing Platform designed to enable operational visibility, automate the capture of important data that matters and gain valuable insights along the way.</h3>
+              <h3 className="text-2xl py-2 md:text-3xl dark:text-white"><a className="text-blue-400 hover:underline hover:font-medium" href="https://seafaresystems.com" target="_blank">Seafare Systems:</a> Seafood Buying software dedicated for the Atlantic Canadian Seafood Industry.</h3>
+            </div>
+            <div className="relative mx-auto w-40 h-40 mt-20 mb-20">
+              <Image className="rounded-full max-h-full" src={jordanavatar} />
             </div>
           </section>
         </main>
