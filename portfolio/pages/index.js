@@ -6,12 +6,9 @@ import jordanai from "../public/jordan-rose-ai.jpg";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import jordanavatar from "../public/avatar.png";
+
 import { useState } from 'react';
+import Projects from './components/projects';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -53,7 +50,7 @@ export default function Home() {
                 </a>
             </div>
             <div className="relative mx-auto w-80 h-80 mt-20 mb-20 overflow-hidden md:h-96 md:w-96">
-              <Image className="rounded-full" src={jordanai} />
+              <Image className="rounded-full" src={jordanai} alt="" />
             </div>
           </section>
           <section>
@@ -71,7 +68,7 @@ export default function Home() {
             </div>
             <div className="lg:flex gap-10 justify-center dark:text-white">
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                <Image className="mx-auto" src={design} width={100} height={100} />
+                <Image className="mx-auto" src={design} width={100} height={100} alt="" />
                 <h3 className="text-lg font-medium pt-8 pb-2">Software Development</h3>
                 <p className="py-2">Full Stack</p>
                 <h4 className="py-4 text-blue-400">Programming Languages &amp; Tools</h4>
@@ -80,7 +77,7 @@ export default function Home() {
                 <p className="text-gray-800 py-1 dark:text-white">NodeJS</p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                <Image className="mx-auto" src={code} width={100} height={100} />
+                <Image className="mx-auto" src={code} width={100} height={100} alt="" />
                 <h3 className="text-lg font-medium pt-8 pb-2">Quality Assurance</h3>
                 <p className="py-2">Eye for detail</p>
                 <h4 className="py-4 text-blue-400">How I Accomplish</h4>
@@ -89,7 +86,7 @@ export default function Home() {
                 <p className="text-gray-800 py-1 dark:text-white">Testing Edge Cases</p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                <Image className="mx-auto" src={consulting} width={100} height={100} />
+                <Image className="mx-auto" src={consulting} width={100} height={100} alt="" />
                 <h3 className="text-lg font-medium pt-8 pb-2">Product Management</h3>
                 <p className="py-2">Efficient Teams</p>
                 <h4 className="py-4 text-blue-400">Approach</h4>
@@ -99,38 +96,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section>
-            <div>
-              <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
-              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Below is a short-list of the main projects I have created and worked on personally.
-              </p>
-            </div>
-            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-              <div className="basis-1/3 flex-1">
-                <Image className="rounded-lg object-cover w-full h-full" width={500} height={500} src={web1} />
-              </div>
-              <div className="basis-1/3 flex-1">
-                <Image className="rounded-lg object-cover w-full h-full" width={500} height={500} src={web2} />
-              </div>
-              <div className="basis-1/3 flex-1">
-                <Image className="rounded-lg object-cover w-full h-full" width={500} height={500} src={web3} />
-              </div>
-              <div className="basis-1/3 flex-1">
-                <Image className="rounded-lg object-cover w-full h-full" width={500} height={500} src={web4} />
-              </div>
-            </div>
-          </section>
-          <section>
-            <div className="text-center p-10">
-              <h2 className="text-5xl py-2 text-blue-400 font-medium md:text-6xl">Projects</h2>
-              <h3 className="text-2xl py-2 md:text-3xl dark:text-white"><a className="text-blue-400 hover:underline hover:font-medium" href="https://tracktile.io" target="_blank">Tracktile:</a> Configurable Food & Beverage Manufacturing Platform designed to enable operational visibility, automate the capture of important data that matters and gain valuable insights along the way.</h3>
-              <h3 className="text-2xl py-2 md:text-3xl dark:text-white"><a className="text-blue-400 hover:underline hover:font-medium" href="https://seafaresystems.com" target="_blank">Seafare Systems:</a> Seafood Buying software dedicated for the Atlantic Canadian Seafood Industry.</h3>
-            </div>
-            <div className="relative mx-auto w-40 h-40 mt-20 mb-20">
-              <Image className="rounded-full max-h-full" src={jordanavatar} />
-            </div>
-          </section>
+          <Projects />
         </main>
       </div>
     </>
