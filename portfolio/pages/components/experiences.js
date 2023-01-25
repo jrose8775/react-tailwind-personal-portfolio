@@ -26,13 +26,13 @@ export default function Experiences() {
                 <h3 className="text-5xl py-2 text-blue-400 font-medium md:text-6xl">Experiences</h3>
                 {/* <p className="text-md py-2 leading-8 text-gray-800 dark:text-white"> */}
                 <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-4xl mx-auto dark:text-white">
-                As a software developer, with a strong background in programming languages such as <span className="text-blue-400">JavaScript</span> and <span className="text-blue-400">React</span> and experience developing and maintaining software applications for various industries.
+                    As a software developer, with a strong background in programming languages such as <span className="text-blue-400">JavaScript</span> and <span className="text-blue-400">React</span> and experience developing and maintaining software applications for various industries.
                 </p>
                 <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-4xl mx-auto dark:text-white">
-                Experience in software quality assurance, including developing and executing test plans, writing and maintaining test cases, and identifying and documenting defects in software applications.
+                    Experience in software quality assurance, including developing and executing test plans, writing and maintaining test cases, and identifying and documenting defects in software applications.
                 </p>
                 <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-4xl mx-auto dark:text-white">
-                Finally, I have experience as a software product manager, responsible for leading cross-functional teams to define, prioritize, and deliver successful software products, using agile methodologies and data-driven decision making.
+                    Finally, I have experience as a software product manager, responsible for leading cross-functional teams to define, prioritize, and deliver successful software products, using agile methodologies and data-driven decision making.
                 </p>
             </div>
             <div className="lg:flex gap-10 justify-center dark:text-white">
