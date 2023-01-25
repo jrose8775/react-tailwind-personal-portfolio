@@ -3,11 +3,9 @@ import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import Image from "next/image";
 import jordanai from "../public/jordan-rose-ai.jpg";
-import design from "../public/design.png";
-import code from "../public/code.png";
-import consulting from "../public/consulting.png";
 
 import { useState } from 'react';
+import Experiences from './components/experiences';
 import Projects from './components/projects';
 
 export default function Home() {
@@ -53,49 +51,7 @@ export default function Home() {
               <Image className="rounded-full" src={jordanai} alt="" />
             </div>
           </section>
-          <section>
-            <div>
-              <h3 className="text-3xl py-1 dark:text-white">Experience</h3>
-              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              I have experience as a software developer, with a strong background in programming languages such as <span className="text-blue-400">JavaScript</span> and <span className="text-blue-400">React</span> and experience developing and maintaining software applications for various industries.
-              </p>
-              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                I have experience in software quality assurance, including developing and executing test plans, writing and maintaining test cases, and identifying and documenting defects in software applications.
-              </p>
-              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                I have experience as a software product manager, responsible for leading cross-functional teams to define, prioritize, and deliver successful software products, using agile methodologies and data-driven decision making.
-              </p>
-            </div>
-            <div className="lg:flex gap-10 justify-center dark:text-white">
-              <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                <Image className="mx-auto" src={design} width={100} height={100} alt="" />
-                <h3 className="text-lg font-medium pt-8 pb-2">Software Development</h3>
-                <p className="py-2">Full Stack</p>
-                <h4 className="py-4 text-blue-400">Programming Languages &amp; Tools</h4>
-                <p className="text-gray-800 py-1 dark:text-white">JavaScript &amp; TypeScript</p>
-                <p className="text-gray-800 py-1 dark:text-white">React</p>
-                <p className="text-gray-800 py-1 dark:text-white">NodeJS</p>
-              </div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                <Image className="mx-auto" src={code} width={100} height={100} alt="" />
-                <h3 className="text-lg font-medium pt-8 pb-2">Quality Assurance</h3>
-                <p className="py-2">Eye for detail</p>
-                <h4 className="py-4 text-blue-400">How I Accomplish</h4>
-                <p className="text-gray-800 py-1 dark:text-white">Manual Application Validation</p>
-                <p className="text-gray-800 py-1 dark:text-white">User &amp; Business Needs</p>
-                <p className="text-gray-800 py-1 dark:text-white">Testing Edge Cases</p>
-              </div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                <Image className="mx-auto" src={consulting} width={100} height={100} alt="" />
-                <h3 className="text-lg font-medium pt-8 pb-2">Product Management</h3>
-                <p className="py-2">Efficient Teams</p>
-                <h4 className="py-4 text-blue-400">Approach</h4>
-                <p className="text-gray-800 py-1 dark:text-white">Unblocking Developers</p>
-                <p className="text-gray-800 py-1 dark:text-white">Writing User Stories</p>
-                <p className="text-gray-800 py-1 dark:text-white">Documentation</p>
-              </div>
-            </div>
-          </section>
+          <Experiences />
           <Projects />
         </main>
       </div>
