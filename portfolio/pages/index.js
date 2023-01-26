@@ -34,8 +34,8 @@ export default function Home() {
             </nav>
             <div className="text-center p-10">
               <h2 className="text-5xl py-2 text-blue-400 font-medium md:text-6xl">Jordan Rose</h2>
-              <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Developer, Product Manager</h3>
-              <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
+              <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Software Founder | Software Engineer</h3>
+              <p className="text-lg py-5 leading-8 text-gray-800 md:text-2xl max-w-xl mx-auto dark:text-white">
                 As a highly motivated and detail-oriented individual, I have a proven track record of success in both my business and technical pursuits. I pride myself on solid communication and problem-solving skills, and I enjoy continuously improving.
               </p>
             </div>
@@ -49,6 +49,10 @@ export default function Home() {
             </div>
             <div className="relative mx-auto w-80 h-80 mt-20 mb-20 overflow-hidden md:h-96 md:w-96">
               <Image className="rounded-full" src={jordanai} alt="" />
+            </div>
+            <div className="text-center p-10">
+              <h3 className="text-xl py-2 md:text-xl dark:text-white max-w-2xl mx-auto"><u>Professional Interests &amp; Continuous Learning:</u><br />Product Management, Tech Sales, Sales Engineering, Cloud, Data, QA &amp; Technical Consulting</h3>
+              <h3 className="text-lg py-2 md:text-lg dark:text-white">Personal Interests: Hiking, Kayaking, Swimming, Biking &amp; Personal Finance/Real Estate</h3>
             </div>
           </section>
           <Experiences />
